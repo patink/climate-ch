@@ -14,12 +14,7 @@ This web-app analyses **Climate Change**!
 
 st.sidebar.header('Slide To Adjust Temperatures')
 
-st.sidebar.write("""**2015**""")
-JT_0 = st.sidebar.slider('Jan', -20, 50, 5, key="1")
-AT_0 = st.sidebar.slider('April', -20, 50, 12, key="2")
-JU_0 = st.sidebar.slider('July', -20, 50, 20, key="3")
-OT_0 = st.sidebar.slider('October', -20, 50, 16, key="4")
-data_0= (JT_0,AT_0,JU_0,OT_0)
+
 
 st.sidebar.write("""**2016**""")
 JT_1 = st.sidebar.slider('Jan', -20, 50, 7, key="5")
